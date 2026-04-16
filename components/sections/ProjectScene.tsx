@@ -109,7 +109,7 @@ export default function ProjectScene({ project, isEven }: ProjectSceneProps) {
           </motion.div>
 
           {project.name.split('\n').map((line, i) => (
-            <div key={i} style={{ overflow: 'hidden' }}>
+            <div key={i} style={{ overflow: 'hidden', paddingBottom: '0.12em' }}>
               <motion.h2
                 initial={{ y: '108%' }}
                 animate={inView ? { y: '0%' } : {}}

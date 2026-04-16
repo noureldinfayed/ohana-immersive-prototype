@@ -94,7 +94,7 @@ export default function InvestmentMatcher() {
             AI Investment Advisor
           </motion.p>
 
-          <div style={{ overflow: 'hidden' }}>
+          <div style={{ overflow: 'hidden', paddingBottom: '0.12em' }}>
             <motion.h2
               initial={{ y: '105%' }}
               animate={inView ? { y: '0%' } : {}}

@@ -41,7 +41,7 @@ export default function FooterCTA() {
       </div>
 
       <div style={{ position: 'relative', zIndex: 1 }}>
-        <div style={{ overflow: 'hidden', marginBottom: '12px' }}>
+        <div style={{ overflow: 'hidden', marginBottom: '12px', paddingBottom: '0.15em' }}>
           <motion.h2
             initial={{ y: '105%' }}
             animate={inView ? { y: '0%' } : {}}
@@ -57,7 +57,7 @@ export default function FooterCTA() {
             Your legacy
           </motion.h2>
         </div>
-        <div style={{ overflow: 'hidden', marginBottom: '48px' }}>
+        <div style={{ overflow: 'hidden', marginBottom: '48px', paddingBottom: '0.15em' }}>
           <motion.h2
             initial={{ y: '105%' }}
             animate={inView ? { y: '0%' } : {}}

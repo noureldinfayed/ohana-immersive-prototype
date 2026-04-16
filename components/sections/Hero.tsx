@@ -79,7 +79,7 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        <div style={{ overflow: 'hidden', marginBottom: '8px' }}>
+        <div style={{ overflow: 'hidden', marginBottom: '8px', paddingBottom: '0.12em' }}>
           <motion.h1
             initial={{ y: '110%' }}
             animate={{ y: '0%' }}
@@ -96,7 +96,7 @@ export default function Hero() {
             Crafting
           </motion.h1>
         </div>
-        <div style={{ overflow: 'hidden', marginBottom: '8px' }}>
+        <div style={{ overflow: 'hidden', marginBottom: '8px', paddingBottom: '0.12em' }}>
           <motion.h1
             initial={{ y: '110%' }}
             animate={{ y: '0%' }}
@@ -113,7 +113,7 @@ export default function Hero() {
             Timeless
           </motion.h1>
         </div>
-        <div style={{ overflow: 'hidden', marginBottom: '40px' }}>
+        <div style={{ overflow: 'hidden', marginBottom: '40px', paddingBottom: '0.12em' }}>
           <motion.h1
             initial={{ y: '110%' }}
             animate={{ y: '0%' }}
