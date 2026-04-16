@@ -90,17 +90,17 @@ export default function FooterCTA() {
           }}
         >
           <div>
-            <p
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/ui/ohana-logo.png"
+              alt="Ohana Development"
               style={{
-                fontFamily: 'Cormorant Garamond, serif',
-                fontSize: '18px',
-                fontStyle: 'italic',
-                color: '#C9A55A',
-                marginBottom: '6px',
+                height: '48px',
+                width: 'auto',
+                display: 'block',
+                marginBottom: '14px',
               }}
-            >
-              OHANA DEVELOPMENT
-            </p>
+            />
             <p
               style={{
                 fontFamily: 'Inter, sans-serif',
