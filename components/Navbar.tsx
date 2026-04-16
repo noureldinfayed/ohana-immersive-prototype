@@ -29,34 +29,14 @@ export default function Navbar() {
         transition: 'all 0.4s ease',
       }}
     >
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <span
-          style={{
-            fontFamily: 'Cormorant Garamond, serif',
-            fontSize: '22px',
-            fontWeight: 400,
-            letterSpacing: '0.15em',
-            color: '#C9A55A',
-            textTransform: 'uppercase',
-            lineHeight: 1,
-          }}
-        >
-          OHANA
-        </span>
-        <span
-          style={{
-            fontFamily: 'Inter, sans-serif',
-            fontSize: '7px',
-            fontWeight: 300,
-            letterSpacing: '0.45em',
-            color: 'rgba(245,240,232,0.4)',
-            textTransform: 'uppercase',
-            marginTop: '3px',
-          }}
-        >
-          DEVELOPMENT
-        </span>
-      </div>
+      <a href="#" aria-label="Ohana Development" style={{ display: 'flex', alignItems: 'center' }}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/ui/ohana-logo.png"
+          alt="Ohana Development"
+          style={{ height: '44px', width: 'auto', display: 'block' }}
+        />
+      </a>
 
       <div
         style={{
